@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif;
+}
+
+.wrapper{
+    width: 65vmin;
+    height: 70vmin;
+    background-color: #293447;
+}
+
+.game-details{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(202, 230, 255);
+}
